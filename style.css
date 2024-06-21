@@ -75,6 +75,15 @@ body {
 }
 .main-conatianer {
   /* background-image: url(./images/mainbg.png); */
+  background-image: url("./images/mainbg.png");
+  background-size: cover; /* or contain */
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
   height: 100%;
   width: 100%;
 }
@@ -230,6 +239,15 @@ body {
 /*   join us */
 
 .joinUs-container {
+  background-image: url("./images/joinus.png");
+  background-size: cover; /* or contain */
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
   margin: 0%;
   padding: 0%;
 }
